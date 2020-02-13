@@ -21,5 +21,24 @@ theoretically proves that GFIM satisfies ε-LDP. In addition, extensive experime
 synthetic dataset and real dataset demonstrate its effectiveness and superiority over existing
 method.
 
+## Keywords
 
-The datasets I used in the experiments can be found [here](https://drive.google.com/open?id=1RMOij0O_aMXnOu4RtGGsr-ERH1Q8RjXQ).
+set-valued data, local differential privacy, frequent item mining 
+
+## Contents
+
+This repository is organized as follows:
+ * `Code` contains the source codes of the algorithm I designed *GFIM.py*, the baseline algorithm I reproduced according to one paper *LDPMiner.py*, the preprocessing script *Prepocessing.py*, my implementation of the building block algorithm *Sampling_S-Hist.py*, the script I used to synthesis the synthetic datasets *SynthesizeData.py*.
+
+ * `Experiments` contains all the results and intermediate results of the experiments I did as well as the figures I used in the paper. 
+ 
+ * `Papers` contains the original paper of the baseline algorithm *LDPMiner*. This thesis work is inspired by this paper. 
+ 
+ * `Paper_JunZhang_Final.pdf` is the final draft of the thesis paper. 
+  
+ * `Presentations.pptx` is the slides I used for thesis defence. 
+  
+Due to the big size of the datasets, I didn't upload the datasets to this repo. The datasets I used in the experiments can be found [here](https://drive.google.com/open?id=1RMOij0O_aMXnOu4RtGGsr-ERH1Q8RjXQ).
+
+## To-do
+Translate the slides into English version. Date: Feb 13th， 2020
