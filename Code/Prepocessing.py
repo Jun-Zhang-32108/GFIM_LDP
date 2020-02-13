@@ -7,10 +7,8 @@ import time
 from itertools import islice
 import random 
                     
-#main函数
 if __name__ == '__main__':
 
-    #读取源数据文件
 
     user_itemset_fixsized = 47
 
@@ -22,7 +20,6 @@ if __name__ == '__main__':
         
         print('Source Filerout: %s'%fileroute)
 
-        #读取文件和写入文件
         old_file1 = open(fileroute,'rb')
         new_file1 = open(fileout,'wb')
         new_file2 = open(fileout2,'ab+')

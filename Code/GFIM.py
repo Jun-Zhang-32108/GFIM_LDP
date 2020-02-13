@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# S-Hist，二阶抽样算法，挖掘频繁项，每个用户输入一个集合
 # 2018/5/16
 
 import math
@@ -20,7 +19,7 @@ class LR2():
 		self.Location = location
 		self.Privacy  = privacy
 		self.candiate = Candidate_LR
-		# self.d = len(list_x) #在区域T内的位置点（location）的个数
+		# self.d = len(list_x) 
 
 	def run(self):
 		
@@ -357,7 +356,6 @@ def S_Hist_part2_topk(Location_num,Candidate,user_num,user_num_total,Locations_I
 
 
 
-#main函数
 if __name__ == '__main__':
 
 	
@@ -373,7 +371,7 @@ if __name__ == '__main__':
 	csv_writer1 = csv.writer(new_file1,dialect='excel')
 	print('Output Route: %s'%fileout)
 
-	# 记录运行参数
+	# bookkeeping of log data
 	fileout2 = 'F:\study_BUPT\Thesis\Code_Lite\Data\EstimatedData'+'//'+'new_20180522'+'//'+'algorithm_log.csv'
 	new_file2 = open(fileout2,'ab+')
 	csv_writer2 = csv.writer(new_file2,dialect='excel')

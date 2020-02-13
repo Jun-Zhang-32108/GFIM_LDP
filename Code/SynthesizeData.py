@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# 合成测试数据集
 # 2018/4/2
 
 import math
@@ -131,7 +130,6 @@ def syn_laplace(num): #num = the sample size
     return rand_data
 
 
-#main函数
 if __name__ == '__main__':
     
 	user_itemset_fixsized = 50
